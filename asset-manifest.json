@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kangcodeis.github.io/static/css/main.d10d0330.chunk.css",
+    "main.js": "/kangcodeis.github.io/static/js/main.43aa8146.chunk.js",
+    "main.js.map": "/kangcodeis.github.io/static/js/main.43aa8146.chunk.js.map",
+    "runtime-main.js": "/kangcodeis.github.io/static/js/runtime-main.862c6deb.js",
+    "runtime-main.js.map": "/kangcodeis.github.io/static/js/runtime-main.862c6deb.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/kangcodeis.github.io/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.4299d6f7.chunk.js": "/kangcodeis.github.io/static/js/2.4299d6f7.chunk.js",
+    "static/js/2.4299d6f7.chunk.js.map": "/kangcodeis.github.io/static/js/2.4299d6f7.chunk.js.map",
+    "index.html": "/kangcodeis.github.io/index.html",
+    "precache-manifest.63b8fcb9e6b9d11ebf5811722e5fee67.js": "/kangcodeis.github.io/precache-manifest.63b8fcb9e6b9d11ebf5811722e5fee67.js",
+    "service-worker.js": "/kangcodeis.github.io/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/kangcodeis.github.io/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d10d0330.chunk.css.map": "/kangcodeis.github.io/static/css/main.d10d0330.chunk.css.map",
+    "static/js/2.4299d6f7.chunk.js.LICENSE.txt": "/kangcodeis.github.io/static/js/2.4299d6f7.chunk.js.LICENSE.txt",
+    "static/media/curved.svg": "/kangcodeis.github.io/static/media/curved.d22363c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.862c6deb.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.4299d6f7.chunk.js",
+    "static/css/main.d10d0330.chunk.css",
+    "static/js/main.43aa8146.chunk.js"
+  ]
+}
