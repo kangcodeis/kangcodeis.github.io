@@ -70,10 +70,7 @@ const Contact = () => {
           className="pr-lg-5 pr-xs-3 text-wrap color-customBlueLight"
           style={{ fontSize: descFontSize }}
         >
-          One of my favorite things about building software is the variety, in
-          clients and projects. So no matter the work or technology, get in
-          touch and tell me what you have in mind. — I can’t wait to hear all
-          about it!
+          {" "}
         </h5>
         <h4
           className="pr-lg-5 pr-xs-3 text-wrap color-customBlueLight"
@@ -87,27 +84,22 @@ const Contact = () => {
           {/* <SignatureSvg fill="#091292" style={{ width: "70%" }} /> */}
         </div>
         <br />
-        <div className="mt-3 mb-3 pr-lg-5 pr-xs-3">
-          <Button
-            className="contact-btns bg-customBlue mr-2 shadow border-0 py-1 px-2"
-            onClick={() =>
-              window.open("https://twitter.com/sachinsrinivasa", "_blank")
-            }
-          >
-            <FontAwesomeIcon size="1x" icon={faTwitter} />
-            <span>TEL</span>
+        <div className="mt-3 mb-3 pr-lg-5 pr-xs-7">
+          <Button className="contact-btns bg-customBlue mr-1 shadow border-0 py-1 px-7 width:100%">
+            {/* <FontAwesomeIcon size="1x" icon={faTwitter} /> */}
+            TEL : 010-9918-9301
           </Button>
           <Button
             className="contact-btns bg-customBlue shadow border-0 py-1 px-2"
-            onClick={() =>
-              window.open(
-                'mailto:s.sachin94@gmail.com?subject="Hello !"',
-                "_blank"
-              )
-            }
+            // onClick={() =>
+            //   window.open(
+            //     'mailto:s.sachin94@gmail.com?subject="Hello !"',
+            //     "_blank"
+            //   )
+            // }
           >
             <GmailSvg fillColor="#8d81a5" style={{ width: 16 }} />
-            <span>Mail</span>
+            Mail : miiren543@gmail.com
           </Button>
         </div>
       </Container>

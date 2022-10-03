@@ -46,12 +46,8 @@ const Home = ({ history }) => {
                     I'm a <span className="font-weight-bold">junior</span>{" "}
                     developer
                   </span>
-                  <br />
-                  <br />
-                  <span className="color-customBlueLight h5">
-                    I specialize in developing and deploying responsive websites
-                    and web applications
-                  </span>
+
+                  <span className="color-customBlueLight h5"></span>
                   <br />
                 </div>
                 <div>

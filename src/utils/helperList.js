@@ -44,10 +44,10 @@ export const skillsList = [
     label: "Javascript",
     src: "https://img.icons8.com/color/144/000000/javascript.png",
   },
-  {
-    label: "Typescript",
-    src: "https://img.icons8.com/color/144/000000/typescript.png",
-  },
+  // {
+  //   label: "Typescript",
+  //   src: "https://img.icons8.com/color/144/000000/typescript.png",
+  // },
   {
     label: "Node JS",
     src: "https://img.icons8.com/color/144/000000/nodejs.png",
@@ -68,14 +68,14 @@ export const skillsList = [
     label: "React Native",
     src: "https://i.ibb.co/7NfB2rt/rn2.png",
   },
-  {
-    label: "Electron JS",
-    src: "https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg",
-  },
-  {
-    label: "Redux",
-    src: "https://img.icons8.com/color/144/000000/redux.png",
-  },
+  // {
+  //   label: "Electron JS",
+  //   src: "https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg",
+  // },
+  // {
+  //   label: "Redux",
+  //   src: "https://img.icons8.com/color/144/000000/redux.png",
+  // },
   {
     label: "Github",
     src: "https://img.icons8.com/fluent/144/000000/github.png",
@@ -83,11 +83,6 @@ export const skillsList = [
   {
     label: "Next JS",
     src: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
-  },
-
-  {
-    label: "Jquery",
-    src: "https://img.icons8.com/ios-filled/144/000000/jquery.png",
   },
 
   {
@@ -102,60 +97,62 @@ export const skillsList = [
     label: "Material UI",
     src: "https://img.icons8.com/color/144/000000/material-ui.png",
   },
-  {
-    label: "Bootstrap",
-    src: "https://i.ibb.co/zx0Tt9M/bootstrap.png",
-  },
-  {
-    label: "Sass",
-    src: "https://i.ibb.co/zs6B3yR/sass.png",
-  },
+  // {
+  //   label: "Bootstrap",
+  //   src: "https://i.ibb.co/zx0Tt9M/bootstrap.png",
+  // },
+  // {
+  //   label: "Sass",
+  //   src: "https://i.ibb.co/zs6B3yR/sass.png",
+  // },
 ];
 
 export const projectsList = [
   {
-    label: "Auth example - React & Node",
+    label: "board - nodejs & express",
     imgSrc: "https://i.ibb.co/fDgXSmh/authex-1.png",
-    src: "https://auth-example.netlify.app/",
-    githubSrc: "https://github.com/s8sachin/auth-example-react",
-    githubSrc2: "https://github.com/s8sachin/auth-example-node",
+    // src: "https://auth-example.netlify.app/",
+    description: "board 파트에서 백엔드 코드를 맡았습니다",
+    githubSrc: "https://github.com/kangcodeis/team6_login_board",
   },
   {
-    label: "Smitha Karthik Portfolio",
+    label: "Homepages - nodejs & express",
     imgSrc: "https://i.ibb.co/94GVFnf/rsz-smit-1.png",
-    src: "https://smithakarthik.com",
-    githubSrc: "https://github.com/s8sachin/smitha-karthik",
+    description: "board + 관리자 페이지 백&프론트 코드 + UI 담당",
+    githubSrc: "https://github.com/kangcodeis/mini-project-8team",
   },
   {
-    label: "KVHAA - Android app",
-    src: "https://play.google.com/store/apps/details?id=com.kvhaa.kvhaa",
+    label: "Homepages - React ",
+    githubSrc: "https://github.com/kangcodeis/reborn-project",
+    src: "https://github.com/kangcodeis/reborn-project",
+    description:
+      "프론트엔드 - 댓글 CRUD 완성 + board UI + board 프론트엔드 담당",
     imgSrc: "https://i.ibb.co/wrrvMb2/kvhaapp-1.png",
   },
   {
-    label: "Whatsapp chat parser NPM library",
+    label: "block-chain -Block-explorer",
     imgSrc:
       "https://i.ibb.co/TLVqHMF/rsz-2screenshot-2020-06-28-at-2-53-39-am.png",
-    src: "https://www.npmjs.com/package/whatsapp-chat-parser-js",
-    githubSrc: "https://github.com/s8sachin/whatsapp-chat-parser-js",
-    description:
-      'Simple js library to parse exported whatsapp chat "txt -> json"',
+    src: "",
+    githubSrc: "https://github.com/kangcodeis/Block-explorer",
+
+    description: "개인 프로젝트",
   },
   {
-    label: "Mysore city bus API",
+    label: "기업협약 프로젝트",
     imgSrc: "https://i.ibb.co/LzGmbQK/mcbapp-1.png",
-    src: "https://play.google.com/store/apps/details?id=com.mysuru_commute",
-    githubSrc: "https://github.com/s8sachin/mysore_city_bus",
-    description:
-      "Open API for city bus info in Mysore, this is used in a android app",
+    // src: "https://play.google.com/store/apps/details?id=com.mysuru_commute",
+    // githubSrc: "https://github.com/s8sachin/mysore_city_bus",
+    description: "검색 기능과 좋아요(마이페이지) 구현",
   },
-  {
-    label: "KVH Alumni Association",
-    imgSrc: "https://i.ibb.co/r5zJDhc/rsz-kvh-1-1.png",
-    src: "https://kvhalumni.com/",
-  },
-  {
-    label: "Mobile shop management app",
-    imgSrc: "https://i.ibb.co/cCkV7DF/rsz-mobshop-1.png",
-    src: "https://mobileshopdemo.herokuapp.com/",
-  },
+  // {
+  //   label: "KVH Alumni Association",
+  //   imgSrc: "https://i.ibb.co/r5zJDhc/rsz-kvh-1-1.png",
+  //   src: "https://kvhalumni.com/",
+  // },
+  // {
+  //   label: "Mobile shop management app",
+  //   imgSrc: "https://i.ibb.co/cCkV7DF/rsz-mobshop-1.png",
+  //   src: "https://mobileshopdemo.herokuapp.com/",
+  // },
 ];
