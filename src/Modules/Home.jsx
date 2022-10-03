@@ -43,7 +43,7 @@ const Home = ({ history }) => {
                   </span>
                   <br />
                   <span className="color-customBlueLight h3">
-                    I'm a <span className="font-weight-bold">full stack</span>{" "}
+                    I'm a <span className="font-weight-bold">junior</span>{" "}
                     developer
                   </span>
                   <br />
@@ -59,7 +59,7 @@ const Home = ({ history }) => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://github.com/s8sachin"
+                      href="https://github.com/kangcodeis"
                       className="color-customBlue p-0 mr-3"
                     >
                       <FontAwesomeIcon size="2x" icon={faGithubSquare} />
