@@ -40,7 +40,7 @@ const Home = ({ history }) => {
                   </span>
                   <br />
                   <span className="color-customBlue h1 font-weight-bold">
-                    I'm 강귀현
+                    I'm Kang Gwihyun
                   </span>
                   <br />
                   <span className="color-customBlueLight h3">

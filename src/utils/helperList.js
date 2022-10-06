@@ -1,6 +1,9 @@
 import team6 from "../img/team6_.png";
 import team8 from "../img/team8.png";
 import dapptube from "../img/dapp.png";
+import team3 from "../img/team3.png";
+import block from "../img/block.png";
+
 export const showcaseSkills = [
   {
     label: "Javascript",
@@ -67,10 +70,10 @@ export const skillsList = [
     label: "Mongo dB",
     src: "https://i.ibb.co/ZVh01dm/rsz-mong2.png",
   },
-  {
-    label: "React Native",
-    src: "https://i.ibb.co/7NfB2rt/rn2.png",
-  },
+  // {
+  //   label: "React Native",
+  //   src: "https://i.ibb.co/7NfB2rt/rn2.png",
+  // },
   // {
   //   label: "Electron JS",
   //   src: "https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg",
@@ -79,27 +82,27 @@ export const skillsList = [
   //   label: "Redux",
   //   src: "https://img.icons8.com/color/144/000000/redux.png",
   // },
-  {
-    label: "Github",
-    src: "https://img.icons8.com/fluent/144/000000/github.png",
-  },
+  // {
+  //   label: "Github",
+  //   src: "https://img.icons8.com/fluent/144/000000/github.png",
+  // },
   {
     label: "Next JS",
     src: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
   },
 
-  {
-    label: "NPM",
-    src: "https://img.icons8.com/color/144/000000/npm.png",
-  },
-  {
-    label: "Yarn",
-    src: "https://i.ibb.co/GtbG98V/yarn2.png",
-  },
-  {
-    label: "Material UI",
-    src: "https://img.icons8.com/color/144/000000/material-ui.png",
-  },
+  // {
+  //   label: "NPM",
+  //   src: "https://img.icons8.com/color/144/000000/npm.png",
+  // },
+  // {
+  //   label: "Yarn",
+  //   src: "https://i.ibb.co/GtbG98V/yarn2.png",
+  // },
+  // {
+  //   label: "Material UI",
+  //   src: "https://img.icons8.com/color/144/000000/material-ui.png",
+  // },
   // {
   //   label: "Bootstrap",
   //   src: "https://i.ibb.co/zx0Tt9M/bootstrap.png",
@@ -117,27 +120,25 @@ export const projectsList = [
     imgSrc: team6,
     // src: "https://auth-example.netlify.app/",
 
-    description: "board 파트에서 bacckend 코드를 맡았습니다",
+    description: "board의 back-end 담당",
     githubSrc: "https://github.com/kangcodeis/team6_login_board",
   },
   {
     label: "Homepages - nodejs & express",
     imgSrc: team8,
-    description: "board + 관리자 페이지 백&프론트 코드 + UI 담당",
+    description: "board + 관리자 페이지 back+front-end + UI 담당",
     githubSrc: "https://github.com/kangcodeis/mini-project-8team",
   },
   {
     label: "Homepages - React ",
     githubSrc: "https://github.com/kangcodeis/reborn-project",
     src: "https://github.com/kangcodeis/reborn-project",
-    description:
-      "프론트엔드 - 댓글  CRUD 완성 + board UI + board 프론트엔드 담당",
-    imgSrc: "https://i.ibb.co/wrrvMb2/kvhaapp-1.png",
+    description: "프론트엔드 - 댓글  CRUD + board UI + board front-end 담당",
+    imgSrc: team3,
   },
   {
     label: "block-chain -Block-explorer",
-    imgSrc:
-      "https://i.ibb.co/TLVqHMF/rsz-2screenshot-2020-06-28-at-2-53-39-am.png",
+    imgSrc: block,
     src: "",
     githubSrc: "https://github.com/kangcodeis/Block-explorer",
 
