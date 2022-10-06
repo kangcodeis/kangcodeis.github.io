@@ -11,6 +11,7 @@ import CodingSvg from "../Icons/coding";
 import useWindowDimensions from "../utils/dimensionHelper";
 
 // library.add()
+import women from "../Icons/developer_women.png";
 
 const Home = ({ history }) => {
   const { width } = useWindowDimensions();
@@ -72,7 +73,8 @@ const Home = ({ history }) => {
               </div>
             </div>
             <div className="w-50 my-auto d-none d-md-block">
-              <CodingSvg />
+              {/* <CodingSvg /> */}
+              <img src={women} />
             </div>
           </div>
         </Container>

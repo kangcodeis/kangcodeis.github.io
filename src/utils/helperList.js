@@ -1,3 +1,6 @@
+import team6 from "../img/team6_.png";
+import team8 from "../img/team8.png";
+import dapptube from "../img/dapp.png";
 export const showcaseSkills = [
   {
     label: "Javascript",
@@ -110,14 +113,16 @@ export const skillsList = [
 export const projectsList = [
   {
     label: "board - nodejs & express",
-    imgSrc: "https://i.ibb.co/fDgXSmh/authex-1.png",
+    // return(<img src = {team6}/>)
+    imgSrc: team6,
     // src: "https://auth-example.netlify.app/",
-    description: "board 파트에서 백엔드 코드를 맡았습니다",
+
+    description: "board 파트에서 bacckend 코드를 맡았습니다",
     githubSrc: "https://github.com/kangcodeis/team6_login_board",
   },
   {
     label: "Homepages - nodejs & express",
-    imgSrc: "https://i.ibb.co/94GVFnf/rsz-smit-1.png",
+    imgSrc: team8,
     description: "board + 관리자 페이지 백&프론트 코드 + UI 담당",
     githubSrc: "https://github.com/kangcodeis/mini-project-8team",
   },
@@ -126,7 +131,7 @@ export const projectsList = [
     githubSrc: "https://github.com/kangcodeis/reborn-project",
     src: "https://github.com/kangcodeis/reborn-project",
     description:
-      "프론트엔드 - 댓글 CRUD 완성 + board UI + board 프론트엔드 담당",
+      "프론트엔드 - 댓글  CRUD 완성 + board UI + board 프론트엔드 담당",
     imgSrc: "https://i.ibb.co/wrrvMb2/kvhaapp-1.png",
   },
   {
@@ -140,10 +145,10 @@ export const projectsList = [
   },
   {
     label: "기업협약 프로젝트",
-    imgSrc: "https://i.ibb.co/LzGmbQK/mcbapp-1.png",
+    imgSrc: dapptube,
     // src: "https://play.google.com/store/apps/details?id=com.mysuru_commute",
-    // githubSrc: "https://github.com/s8sachin/mysore_city_bus",
-    description: "검색 기능과 좋아요(마이페이지) 구현",
+    githubSrc: "https://www.youtube.com/watch?v=LilR9tOKSMs",
+    description: "검색 기능과 좋아요 페이지(마이페이지) 구현",
   },
   // {
   //   label: "KVH Alumni Association",
