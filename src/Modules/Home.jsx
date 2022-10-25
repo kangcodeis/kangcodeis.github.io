@@ -44,7 +44,8 @@ const Home = ({ history }) => {
                   </span>
                   <br />
                   <span className="color-customBlueLight h3">
-                    I'm a <span className="font-weight-bold">junior</span>{" "}
+                    I'm a{" "}
+                    <span className="font-weight-bold"> front-end junior</span>{" "}
                     developer
                   </span>
 

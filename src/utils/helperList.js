@@ -115,7 +115,7 @@ export const skillsList = [
 
 export const projectsList = [
   {
-    label: "board - nodejs & express",
+    label: "Homepage - nodejs & express",
     // return(<img src = {team6}/>)
     imgSrc: team6,
     // src: "https://auth-example.netlify.app/",
@@ -124,32 +124,35 @@ export const projectsList = [
     githubSrc: "https://github.com/kangcodeis/team6_login_board",
   },
   {
-    label: "Homepages - nodejs & express",
+    label: "Homepage - nodejs & express",
     imgSrc: team8,
     description: "board + 관리자 페이지 back+front-end + UI 담당",
     githubSrc: "https://github.com/kangcodeis/mini-project-8team",
   },
   {
-    label: "Homepages - React ",
+    label: "Homepage - React ",
     githubSrc: "https://github.com/kangcodeis/reborn-project",
     src: "https://github.com/kangcodeis/reborn-project",
-    description: "프론트엔드 - 댓글  CRUD + board UI + board front-end 담당",
+    description: "댓글  CRUD + board UI + board front-end 담당",
     imgSrc: team3,
   },
-  {
-    label: "block-chain -Block-explorer",
-    imgSrc: block,
-    src: "",
-    githubSrc: "https://github.com/kangcodeis/Block-explorer",
+  // {
+  //   label: "block-chain -Block-explorer",
+  //   imgSrc: block,
+  //   src: "",
+  //   githubSrc: "https://github.com/kangcodeis/Block-explorer",
 
-    description: "개인 프로젝트",
-  },
+  //   description: "개인 프로젝트",
+  // },
   {
-    label: "기업협약 프로젝트",
+    label: "기업협약 프로젝트 - DAPPTUBE",
     imgSrc: dapptube,
-    // src: "https://play.google.com/store/apps/details?id=com.mysuru_commute",
+    src: "https://dapptube.vercel.app/",
     githubSrc: "https://www.youtube.com/watch?v=LilR9tOKSMs",
-    description: "검색 기능과 좋아요 페이지(마이페이지) 구현",
+    link: "https://dapptube.vercel.app",
+
+    description:
+      "검색 기능과 좋아요 페이지(마이페이지) 구현. 소스코드는 협업사의 요청으로 프라이빗 레파지토리 이용중이라 비공개 상태입니다",
   },
   // {
   //   label: "KVH Alumni Association",

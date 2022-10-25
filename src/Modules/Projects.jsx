@@ -46,6 +46,19 @@ const Projects = () => {
                     <br />
                   </>
                 )}
+                {proj.link && (
+                  <>
+                    Link:{" "}
+                    <a
+                      href={proj.githubSrc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {proj.link}
+                    </a>
+                    <br />
+                  </>
+                )}
               </Col>
             </Row>
           </Fragment>
